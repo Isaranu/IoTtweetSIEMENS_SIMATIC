@@ -21,6 +21,8 @@ Library สำหรับใช้งานบน SIEMENS SIMATIC IOT2000 serie
 IOT2020/PIN 0 --> PIN8
 IOT2020/PIN 1 --> PIN9
 ```
+**หรือทำการย้าย Jumper ที่เลือก TX, RX บนบอร์ด AIS NB-IoT ให้เลือก PIN0, PIN1 ก็ทำได้ครับ**
+
 3. จ่ายไฟ 9V เข้าที่ IOT2020, รอเวลาเพื่อทำการ boost ระบบ.
 4. เชื่อมต่อสาย micro USB cable จาก IOT2020 เข้ากับคอมพิวเตอร์.
 5. เปิดโปรแกรม Arduino IDE, ติดตั้งรายชื่ออุปกรณ์ โดยไปที่ Menu > Tool > Board > Board Manager.
